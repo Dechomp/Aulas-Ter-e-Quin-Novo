@@ -9,7 +9,7 @@ def main():
 
     i = 0
 
-    while i <  range(len(nomes)):
+    while i in range(len(nomes)):
         nomes[i] = input("Digite o nome do aluno: ")
         i += 1
     print(nomes)
