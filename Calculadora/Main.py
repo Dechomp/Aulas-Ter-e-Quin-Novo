@@ -6,11 +6,13 @@ def main():
     numero2 = float(input("Digite outro número: "))
 
 
-
-    print("A soma de ", numero1 , " + ", numero2, " = ", soma(numero1, numero2))
-    print("A subtração de ", numero1 , " - ", numero2, " = ", sub(numero1, numero2))
+    add = soma(numero1, numero2)
+    subt = sub(numero1, numero2)
+    divi =  div(numero1, numero2)
+    print("A soma de ", numero1 , " + ", numero2, " = ", add)
+    print("A subtração de ", numero1 , " - ", numero2, " = ", subt)
     print("A multiplicação de ", numero1 , " * ", numero2, " = ",mult(numero1, numero2))
-    print("A divisão de ", numero1 , " / ", numero2, " = ", div(numero1, numero2))
+    print("A divisão de ", numero1 , " / ", numero2, " = ", divi)
     return 0
 
 def soma(num1, num2):
