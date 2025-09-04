@@ -3,7 +3,7 @@ def main():
     num = int (input("Digite um número: "))
 
     i = 2
-
+    
     while num != i and num > 1:
         if num % i == 0:
             break
