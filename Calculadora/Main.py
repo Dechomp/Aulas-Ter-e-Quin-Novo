@@ -4,7 +4,7 @@ from Div import div
 def main():
     numero1 = float(input("Digite um número: "))
     numero2 = float(input("Digite outro número: "))
-
+    
 
     add = soma(numero1, numero2)
     subt = sub(numero1, numero2)
